@@ -5,4 +5,7 @@
   {{#link-to "about" class="button"}}
     About Us
   {{/link-to}}
+{{#each this.model as |rentalUnit|}}
+  <RentalListing @rental={{rentalUnit}} />
+{{/each}}
 </div>
