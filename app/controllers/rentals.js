@@ -13,7 +13,7 @@ export default Controller.extend({
           .findAll('rental').then((results) => {
             return { query: param, results: results };
           });
-      }
+        }
     }
   }
 });
