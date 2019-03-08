@@ -1,12 +1,5 @@
 import { helper } from '@ember/component/helper';
 
-export function rentalPropertyType(params/*, hash*/) {
-  const communityPropertyTypes = [
-  'Condo',
-  'Townhouse',
-  'Apartment'
-];
-
 const communityPropertyTypes = [
   'Condo',
   'Townhouse',
